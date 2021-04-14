@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', (ev)=>{
     };
     img.src = 'img.jpg';
 
-    button = document.getElementById('sliderRight');
+    button = document.getElementById('buttonRight');
     button.addEventListener('click', ShiftRed)
 
-    button2 = document.getElementById('button2');
-    button2.addEventListener('click', Shift)
+    //button2 = document.getElementById('button2');
+    //button2.addEventListener('click', Shift)
 
 
 
