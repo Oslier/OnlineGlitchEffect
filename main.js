@@ -32,6 +32,16 @@ document.addEventListener('DOMContentLoaded', (ev)=>{
     shiftRight = sliderRight.value;
     outputRight.innerHTML = sliderRight.value;
 
+    sliderLeft = document.getElementById('sliderLeft');
+    var outputLeft = document.getElementById('outputLeft');
+    shiftLeft = sliderLeft.value;
+    outputLeft.innerHTML = sliderLeft.value;
+
+    sliderUp = document.getElementById('sliderUp');
+    var outputUp = document.getElementById('outputUp');
+    shiftUp = sliderUp.value;
+    outputUp.innerHTML = sliderUp.value;
+
     sliderDown = document.getElementById('sliderDown');
     var outputDown = document.getElementById('outputDown');
     shiftDown = sliderDown.value * 480;
@@ -40,9 +50,18 @@ document.addEventListener('DOMContentLoaded', (ev)=>{
 
 
 
+
     sliderRight.oninput = function() {
         shiftRight = this.value;
         outputRight.innerHTML = this.value;
+    }
+    sliderLeft.oninput = function() {
+        shiftLeft = this.value;
+        outputLeft.innerHTML = this.value;
+    }
+    sliderUp.oninput = function() {
+        shiftUp = this.value;
+        outputUp.innerHTML = this.value;
     }
     sliderDown.oninput = function() {
         shiftDown = this.value * 480;

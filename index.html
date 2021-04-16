@@ -8,9 +8,13 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="banner">UNDER CONSTRUCTION</div>
+
     <div class="container">
         <canvas id="canvas" class="canvas"></canvas>
     </div>
+    
+    <input type="file">
 
 
     <div class="sidmenu">
@@ -25,13 +29,19 @@
         <input class="slider" id="sliderRight" type="range" min="0" max="10" value="0">
         <button id="buttonRight">Shift</button>
 
-        <h3 class="subMenuText">Shift Left</h3>
+        <div>
+            <h3 class="subMenuText">Shift Left</h3>
+            <h3 id="outputLeft"></h3>
+        </div>
         <input class="slider" id="sliderLeft" type="range" min="0" max="10" value="0">
-        <button id="">Shift</button>
+        <button id="buttonLeft">Shift</button>
 
-        <h3 class="subMenuText">Shift Up</h3>
+        <div>
+            <h3 class="subMenuText">Shift Up</h3>
+            <h3 id="outputUp"></h3>
+        </div>
         <input class="slider" id="sliderUp" type="range" min="0" max="10" value="0">
-        <button id="">Shift</button>
+        <button id="buttonUp">Shift</button>
         
         <div>
             <h3 class="subMenuText">Shift Down</h3>
